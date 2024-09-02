@@ -16,7 +16,7 @@ const port = 3001; //
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://app-five-chi-32.vercel.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
